@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7128" started-at="2019-04-11T04:29:37Z" finished-at="2019-04-11T04:29:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7128" started-at="2019-04-11T04:29:37Z" finished-at="2019-04-11T04:29:44Z">
+      <class name="brewbrokerTests.testLogin">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:brewbrokerTests.testLogin@224edc67]" name="setUp" is-config="true" duration-ms="5605" started-at="2019-04-11T04:29:37Z" finished-at="2019-04-11T04:29:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://brewbroker-react.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginBrewWithoutDetails()[pri:0, instance:brewbrokerTests.testLogin@224edc67]" name="loginBrewWithoutDetails" duration-ms="476" started-at="2019-04-11T04:29:43Z" finished-at="2019-04-11T04:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBrewWithoutDetails -->
+        <test-method status="PASS" signature="loginBrewWithInvalidEmail(java.lang.String, java.lang.String)[pri:1, instance:brewbrokerTests.testLogin@224edc67]" name="loginBrewWithInvalidEmail" duration-ms="490" started-at="2019-04-11T04:29:43Z" finished-at="2019-04-11T04:29:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepakkumaryopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBrewWithInvalidEmail -->
+        <test-method status="PASS" signature="loginBrewwithValidDetails(java.lang.String)[pri:2, instance:brewbrokerTests.testLogin@224edc67]" name="loginBrewwithValidDetails" duration-ms="542" started-at="2019-04-11T04:29:44Z" finished-at="2019-04-11T04:29:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deepakkumar@yopmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBrewwithValidDetails -->
+      </class> <!-- brewbrokerTests.testLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

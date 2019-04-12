@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Email" value="deepakkumaryopmail.com"/>
+    <parameter name="Email1" value="deepakkumar@yopmail.com"/>
+    <parameter name="URL" value="http://brewbroker-react.herokuapp.com"/>
+    <parameter name="Password" value="@Test1234"/>
+    <classes>
+      <class name="brewbrokerTests.testLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginBrewWithoutDetails"/>
+          <include name="loginBrewWithInvalidEmail" invocation-numbers="0"/>
+          <include name="loginBrewwithValidDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- brewbrokerTests.testLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

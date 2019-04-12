@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Functionality">
+
+  <test name="Test">
+  
+  <parameter name= "URL" value="http://brewbroker-react.herokuapp.com">
+  </parameter>
+  
+    <parameter name= "Email" value="deepakkumaryopmail.com">
+  </parameter>
+  
+   
+    <parameter name= "Email1" value="deepakkumar@yopmail.com">
+  </parameter>
+  
+  
+     <parameter name= "Password" value="@Test1234">
+  </parameter>
+  
+    <parameter name= "URL" value="http://brewbroker-react.herokuapp.com">
+  </parameter>
+  
+    <parameter name= "URL" value="http://brewbroker-react.herokuapp.com">
+  </parameter>
+  
+  
+  
+  
+    <classes>
+    
+      <class name="brewbrokerTests.testLogin"> </class>
+      
+    </classes>
+    
+    
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
